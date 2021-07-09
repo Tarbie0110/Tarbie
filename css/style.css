@@ -1,0 +1,94 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    font-weight: 200;
+    font-size: 1rem;
+    color: #444;
+}
+
+.intro-left {
+    background: url(../images/1.jpg);
+    position: fixed;
+    left: 0;
+    width: 33.3333%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    border-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 760px) {
+    .intro-left{
+        height: 30vh;
+        margin-bottom: 0;
+        position: relative;
+        width: 100%;
+    }
+}
+
+.avatar {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.quote {
+    float: right;
+}
+
+section {
+    margin: 5rem;
+    font-size: 1.2rem;
+}
+
+.floated-right {
+    float: right;
+}
+
+a{
+    color: #444;
+    text-decoration: none;
+}
+
+.footer {
+    background-color: #fff;
+    font-size: 1rem;
+    margin: 0;
+}
+/*
+.panel-right {
+    background-color: #eee;
+
+}*/
+
+.backround {
+    background-color: #eee;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    position: fixed;
+    clip-path: polygon(37% 0, 93% 0, 75% 100%, 18% 100%);
+}
+.backround-a {
+    background-color: rgba(235, 208, 208, 0.575);
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    clip-path: polygon(55% 0, 33% 100%, 100% 100%);
+}
+
+.backround-b {
+    background-color: rgba(180, 240, 255, 0.575);
+    width: 100%;
+    height: 100%;
+    z-index: -3;
+    position: fixed;
+    clip-path: polygon(0 0, 20% 100%, 45% 35%);
+}
